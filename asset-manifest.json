@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/first-busan/static/css/main.85768c17.css",
+    "main.js": "/first-busan/static/js/main.fead1845.js",
+    "index.html": "/first-busan/index.html",
+    "main.85768c17.css.map": "/first-busan/static/css/main.85768c17.css.map",
+    "main.fead1845.js.map": "/first-busan/static/js/main.fead1845.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85768c17.css",
+    "static/js/main.fead1845.js"
+  ]
+}
