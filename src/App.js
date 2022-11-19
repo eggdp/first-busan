@@ -9,16 +9,15 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 //return 에는 최상단 태그 하나만 가능 ctrl alt l 자동정렬
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path={"/"} element={<Main />} />
         <Route path={"/counter/:seq"} element={<Counter />} />
-        <Route path={"*"} element={<div>페이지가 없습니다.</div>} />
+        <Route path={"*"} element={<div>페이지가 없습니다!</div>} />
       </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
-
 // 레파지토리 만들고 > git init > >git add . > git commit -m "first" > git push origin master >

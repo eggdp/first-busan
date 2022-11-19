@@ -56,7 +56,10 @@ const Main = () => {
               <Button
                 className="me-3"
                 variant="dark"
-                onClick={() => navigate(`/?pageNo=${parseInt(getPageNo) - 1}`)}
+                onClick={() =>
+                  navigate(`/?pa
+                geNo=${parseInt(getPageNo) - 1}`)
+                }
               >
                 prev
               </Button>
